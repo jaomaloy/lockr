@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  service-one:
+    build: ./service-one
+    privileged: true
+  service-two:
+    build: ./service-two
+    privileged: true
+
